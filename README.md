@@ -42,7 +42,7 @@ python test_score.py
 
 ## 3D Anomaly Detection Continue......
 
-### 评测指标参考文献
+## References
 
 ```text
 @article{bergmann2021mvtec,
