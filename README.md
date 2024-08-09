@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ## Getting Started
 
 ```bash
-bash python test_score.py
+python test_score.py
 ```
 ## 2D Anomaly Detection
 
