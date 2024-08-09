@@ -1,5 +1,13 @@
-PyADMetric_EvalToolkit (PyAD_Metric): A Python-based Simple yet Efficient Evaluation Toolbox for Anomaly Detection-like tasks.
+# PyADMetric_EvalToolkit (PyAD_Metric): A Python-based Simple yet Efficient Evaluation Toolbox for Anomaly Detection-like tasks.
+## Installation
+```bash
+pip install -r requirements.txt
+```
+## Getting Started
 
+```bash
+bash python test_score.py
+```
 ## 2D Anomaly Detection
 
 **AUROC**: Area Under the Receiver Operating Characteristic Curve
