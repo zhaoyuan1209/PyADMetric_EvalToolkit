@@ -1,30 +1,40 @@
-# PyADMetric_EvalToolkit
-
-PyADMetric_EvalToolkit (PyAD_Metric): A Python-based Simple yet Efficient Evaluation Toolbox for Segmentation-like tasks
+PyADMetric_EvalToolkit (PyAD_Metric): A Python-based Simple yet Efficient Evaluation Toolbox for Segmentation-like tasks.
 
 ## 2D Anomaly Detection
 
-**AUROC**: Area Under the Receiver Operating Characteristic Curve![](file:///F:/doctor/mygithub/PyADMetric/images/AUROC.png?msec=1723190614026)
+**AUROC**: Area Under the Receiver Operating Characteristic Curve
+
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.image?\text{AUROC}=\int_{0}^{1}\text{TPR(FPR)},\d(\text{FPR})" alt="AUROC formula" />
+</p>
 
 **AUPR**: Area Under the Precision-Recall Curve
 
-![](file:///F:/doctor/mygithub/PyADMetric/images/AUPR.png?msec=1723190769570)
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.image?\text{AUPR}=\int_{0}^{1}P(R),\d(\text{R})" alt="AUPR formula" />
+</p>
 
 **AP**: Average Precision
 
-![](file:///F:/doctor/mygithub/PyADMetric/images/AP.png?msec=1723190768135)
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.image?\text{AP}=\sum_{n}(R_n-R_{n-1})P_n" alt="AP formula" />
+</p>
 
-**PRO**: Per-Region Overlap is defined as the average relative overlap of the binary prediction *P* with each connected component C_k of the ground truth.
+**PRO**: Per-Region Overlap is defined as the average relative overlap of the binary prediction *P* with each connected component Ck​ of the ground truth.
 
-![](file:///F:/doctor/mygithub/PyADMetric/images/Pro.png?msec=1723190741115)
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.image?\text{PRO}=\frac{1}{K}\sum_{k=1}^{K}\frac{|P\cap&space;C_k|}{|C_k|}" alt="PRO formula" />
+</p>
 
-**F1max**: F1-score-max (F1-max)-- F1-score at optimal threshold *θ* for a clearer view against potential data imbalance
+**F1max**: F1-score-max (F1-max) -- F1-score at optimal threshold *θ* for a clearer view against potential data imbalance
 
-![](file:///F:/doctor/mygithub/PyADMetric/images/F1max.png?msec=1723190815851)
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.image?\text{F1}_{\text{max}}(\theta)=\max_{\theta}\left(\frac{2&space;\times&space;\text{Precision}(\theta)&space;\times&space;\text{Recall}(\theta)}{\text{Precision}(\theta)+\text{Recall}(\theta)}\right)" alt="F1max formula" />
+</p>
 
 ## 3D Anomaly Detection Continue......
 
-## 评测指标参考文献
+### 评测指标参考文献
 
 ```text
 @article{bergmann2021mvtec,
